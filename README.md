@@ -1,3 +1,2 @@
-# This is a Paper Rock Scissors game.
+# This is a Rock Paper Scissors game.
 You play against the computer.
-# Rock-Paper-Scissors

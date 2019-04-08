@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Papier Kamień Nożyce</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+
+</head>
+
+<body>
+
+    <div class="section">
+        <div>
+            <button id="rock_button" data-move="rock" class="player-move">Rock</button>
+        </div>
+    </div>
+    <div class="section">
+        <div>
+            <button id="paper_button" data-move="paper" class="player-move">Paper</button>
+        </div>
+    </div>
+    <div class="section">
+        <div>
+            <button id="scissors_button" data-move="scissors" class="player-move">Scissors</button>
+        </div>
+    </div>
+
+    <div id="output" class="game_output"></div>
+
+    <div id="result"></div>
+
+    <div>
+        <button id="new_game">New Game</button>
+    </div>
+
+    <div id="rounds"></div>
+
+    <div class="overlay" id="modal-overlay">
+        <div class="modal" id="modal-box">
+            <a href="#" class="close">x</a>
+            <header>GAME OVER</header>
+            <div id="modal_who_won" class="content"></div>
+           
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
